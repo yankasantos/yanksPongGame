@@ -85,6 +85,10 @@
             function moveright(){
                 myGamePiece.speedX +=1;
             }
+            function stopMove(){
+                myGamePiece.speedX = 0;
+                myGamePiece.speedY = 0;
+            }
 
         </script>
         <button onclick="moveup()">Cima</button>
